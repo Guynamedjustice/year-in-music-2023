@@ -43,6 +43,7 @@ export default function Post({ post, morePosts, preview }) {
                 date={post.releaseYear}
                 artist={post.artistName}
                 category={post.category}
+                favSong={post.favSong}
               />
               <PostBody content={post.thoughts} />
             </article>
